@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    color: #A8DADC;
+    font-weight: 500;
+}
+
+body{
+
+    text-align: center;
+    background-color: #1D3557;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+h1{
+    
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 2rem 1rem 4rem 1rem;
+}
+
+.image img{
+    width: 120px;
+    height: 120px;
+}
+
+
+.languages{
+    margin: 4rem 1rem 0;
+    max-width: 22rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+button{
+    width: 98px;
+    height: 27px;
+    border: none;
+    background-color: #a8dadc;
+    color: #1D3557;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+button:focus{
+    outline: none;
+    background-color: #457B9D;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.play-info{
+    margin: 2rem;
+    max-width: 28rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#play, #info{
+    width: 213px;
+    height: 73px;
+    border: none;
+    background-color: #F1FAEE;
+    color: #E63946;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    /* margin: 10px; */
+}
+
+#play{
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+#play:hover, #info:hover{
+    color: #F1FAEE;
+    background-color: #E63946;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+   font-size: 20px;
+   font-weight: 500;
+   margin-top: 5rem;
+}
+
+@media only screen and (max-width: 500px){
+
+    .main{
+        
+        height: 90vh;
+    }
+
+    
+    h1{
+    
+        font-size: 25px;
+        margin: 2rem 1rem 2rem 1rem;
+    }
+    
+    h3{
+        font-size:14px;
+        letter-spacing: 2px;
+        margin: 2rem 0 1rem 0;
+    }
+    
+    .languages{
+        width: 12.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 2rem 1rem 0;
+    }
+    
+    
+    button{
+        width: 85px;
+        height: 25px;
+        font-size: 9px;
+        margin: 5px;
+    
+    }
+
+    .image img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .play-info{
+        flex-direction: column;
+    }
+
+    #play, #info{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    
+    footer{
+        font-size: 15px;
+        margin-top: 3rem;
+    }
+
+    
+}
